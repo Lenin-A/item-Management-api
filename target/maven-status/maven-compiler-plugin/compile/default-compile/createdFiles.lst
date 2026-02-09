@@ -1,0 +1,4 @@
+com\example\itemapi\controller\controller.class
+com\example\itemapi\ItemapiApplication.class
+com\example\itemapi\service\ItemService.class
+com\example\itemapi\model\Item.class
