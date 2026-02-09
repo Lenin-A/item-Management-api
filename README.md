@@ -27,6 +27,7 @@ Maven
 
 IDE like IntelliJ IDEA (recommended)
 
+
 Steps
 
 Clone the repository
@@ -47,15 +48,16 @@ Run the main Spring Boot class (ItemApiApplication)
 
 Server starts on:
 
-http://localhost:8080
+https://item-management-api-o0x4.onrender.com/api/items/
+
 
 API Endpoints
 1. Get All Items
 
 URL
 
-GET /api/items/getAll
-
+GET   -   https://item-management-api-o0x4.onrender.com/api/items/getAll
+POST  -  https://item-management-api-o0x4.onrender.com/api/items/add
 
 Description
 
@@ -78,14 +80,6 @@ Sample Response
 
 2. Get Item by ID
 
-URL
-
-GET /api/items/{id}
-
-
-Example
-
-GET /api/items/1
 
 
 Description
@@ -142,4 +136,4 @@ Validation is implemented using @NotBlank
 Invalid input will result in a 400 Bad Request
 
 
-<img width="1437" height="815" alt="image" src="https://github.com/user-attachments/assets/54358916-cf5e-42ea-a182-2565c6626fac" />
+<img width="1908" height="893" alt="image" src="https://github.com/user-attachments/assets/2a82e20f-bb11-43e2-9283-f63fa425529a" />
